@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    --font-family-1: 'Asap', sans-serif;
+    --font-family-2: 'Inconsolata', sans-serif;
+    --font-family-3: 'Maven Pro', sans-serif;
+    --title-lg: 54px/120% 
+}
+
+.img-fundo img{
+    display: block;
+    max-width: 100%;
+}
+
+.container-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    position: absolute;
+    width: 1040px;
+    height: 447px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 680px;
+    height: 327px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+ 
+
+.imagem-perfil {
+    border: 2px solid #E3646E;
+    border-radius: 999px;
+}
+
+
+
+.icon-perfil {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 535px;
+    top: 68px;
+    
+}
+
+
+.textos-perfil{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 680px;
+    height: 159px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.textos-perfil h2 {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gray-500);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+    order: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--red);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--gray-300);
+}
+
+.textos-perfil h1 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gray-600);
+    order: 1;
+}
+
+p{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--gray-400);
+    order: 1;
+    
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    padding: 0px;
+    gap: 16px;
+    order: 1;
+}
+
+.text-icon {
+    color: var(--gray-500);
+    font-family: var(--font-family-3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 138px;
+    height: 40px;
+    background: var(--gray-300);
+    border-radius: 999px;
+}
+
+.text-icon:hover {
+    background-color: var(--gray-100);
+    transition: all 0.3s ease-in-out;
+}
+
+.icone-rolar{
+    position: absolute;
+    width: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 561px;
+}
+
+.bxl-html5 {
+    color: var(--red);
+    font-size: 24px;
+}
+.bxl-css3 {
+    color: var(--blue);
+    font-size: 24px;
+}
+.bxl-javascript{
+    color: var(--yellow);
+    font-size: 24px;
+}
+.bxl-github{
+    font-size: 24px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1040px;
+    height: 584px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+
+}
+
+.projetos img {
+    width: 306px; 
+    height: 156px;
+    object-fit: cover;
+}
