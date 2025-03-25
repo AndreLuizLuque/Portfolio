@@ -1,0 +1,125 @@
+.container-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 80px;
+    position: absolute;
+    width: 100%;
+    max-width: 1040px;
+    height: 447px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 40px;
+    width: 680px;
+    height: 327px;
+}
+
+.imagem-perfil {
+    border: 2px solid var(--dark-green);
+    border-radius: 999px;
+    width: 120px;
+    height: 120px;
+}
+
+.icon-perfil {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 555px;
+    top: 75px;
+}
+
+.textos-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 20px;
+    width: 680px;
+    height: 159px;
+}
+
+.textos-perfil h2 {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gray-500);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-green);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: var(--gray-300);
+}
+
+.textos-perfil h1 {
+    font-family: var(--font-family-2);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gray-600);
+}
+
+p {
+    font-family: var(--font-family-3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--gray-400);
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+.text-icon {
+    color: var(--gray-500);
+    font-family: var(--font-family-3);
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 138px;
+    height: 40px;
+    background: var(--gray-300);
+    border-radius: 999px;
+}
+
+.text-icon:hover {
+    background-color: var(--gray-100);
+    transition: all 0.3s ease-in-out;
+}
+
+.icone-rolar {
+    position: absolute;
+    width: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 561px;
+}
+
+.bxl-html5 { color: rgb(180, 60, 60); font-size: 24px; }
+.bxl-css3 { color: var(--blue); font-size: 24px; }
+.bxl-javascript { color: var(--yellow); font-size: 24px; }
+.bxl-github { font-size: 24px; }
+
