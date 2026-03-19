@@ -272,7 +272,7 @@ h1, h2, h3, h4 {
     position: absolute;
     inset: 0;
     z-index: 0;
-    background-image: url('images/hero-bg.jpg');
+    background-image: url('https://cdn.pixabay.com/video/2023/10/19/185726-876210695_tiny.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
